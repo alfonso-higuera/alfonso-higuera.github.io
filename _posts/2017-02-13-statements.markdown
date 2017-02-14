@@ -15,15 +15,17 @@ paraphased to statements uniformly.
 Compound statements can be formed by combining statements using conectives like "_and_", "_or_",
 "_not_", and "_if ... then_". For example:
 
-- Alice is a daydreamer and the Hatter is mad.
-- If Columbus discovered America then today is Friday.
-- The house is painted blue or my name is Albert.
-- I will not go to the meeting tonight.
+- Alice is a daydreamer _**and**_ the Hatter is mad.
+- _**If**_ Columbus discovered America _**then**_ today is Friday.
+- The house is painted blue _**or**_ my name is Albert.
+- I will _**not**_ go to the meeting tonight.
 
 For some statements there exist an interdependency with repect of their truthfulness. For example,
 the sentences "It is raining" and "It is not raining" can not both be true. Indeed, if one is true
 the other must be false, and vice versa. This interdependence is the basis for logical
 argumentation.
 
-The truth of a compund statement depends on the truth of its constituent statements. We will se how
+The truth of a compound statement depends on the truth of its constituent statements. We will se how
 this is the case, for each of the logical conectives stated above, in further posts.
+
+Two statements are said to be equivalent if they are true in exactly the same cases.
