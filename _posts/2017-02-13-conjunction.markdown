@@ -55,3 +55,46 @@ statement "Mary and Joe went to the movies" is analyzed as
 "Mary went to the movies \\(\land\\) Joe went to the movies" part of the meaning of the
 original statement is lost since it intended to convey that they went to the movies
 together, not just that each of them went to the movies.
+
+The following are the inference rules for conjunction.
+
+Simplification, in two forms:
+
+\\[
+  \frac{
+    \begin{array}{@{}c@{}}
+      \phi \land \psi
+    \end{array}
+   }{
+    \phi
+   }
+\\]
+
+\\[
+  \frac{
+    \begin{array}{@{}c@{}}
+      \phi \land \psi
+    \end{array}
+   }{
+    \psi
+   }
+\\]
+
+The rule of simplification says that whenever we know that a conjunction is
+true we can infer either of its conjuncts.
+
+Adjunction:
+
+\\[
+  \frac{
+    \begin{array}{@{}c@{}}
+      \phi \newline
+      \psi
+    \end{array}
+   }{
+    \phi \land \psi
+   }
+\\]
+
+The rule of adjunction says that whenever we know that two statements are
+true we can infer their conjunction.
